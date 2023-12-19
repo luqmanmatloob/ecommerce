@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import react from react
 
-const WeatherApp = () => {
+const Weather = () => {
   const [cityName, setCityName] = useState('');
   const [weatherInfo, setWeatherInfo] = useState(null);
   const apiKey = '8212f2ee733e67d9febf1dfe26b7cd3d';
@@ -68,4 +68,4 @@ const WeatherApp = () => {
   );
 };
 
-export default WeatherApp;
+export default Weather;
